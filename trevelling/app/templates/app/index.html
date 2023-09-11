@@ -1,0 +1,58 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    
+    
+    <link rel="stylesheet" href="{% static 'app/css/styles.css' %}">
+    
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="logo">
+         <h1 id="logoh1"><span>GOtrip </span></h1>
+        </div>
+      <ul class="navlist">
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="{% url 'Gallry' %}">Gallary</a></li>
+      
+        
+        <li><a href="{% url 'Contact'%}">Contact</a></li>
+      </ul>
+      <div class="rightnav">
+          <input type="text" name="search" placeholder="Enter Search" id="search"/>
+          <button class="btn">Search</button>
+      </div>
+    </nav>
+    
+     {% block one  %}
+       
+       <div id="homes">
+        <p id="homep">ENJOY YOUR WONDERFUL HOLIDAY WITH A GREAT EXPERIENCE</p>
+        <h1 id="homeh1">Most Relaxing Place</h1>
+        <button id="btn2">Take a Tour</button>
+        <button id="btn3">Learn More</button>
+      </div>
+
+     {%endblock one %}
+    
+    <footer class="footers">
+    <div class="footerdiv">
+      <a class="footera">© 2022 MAKEMYTRIP PVT. LTD.</a>
+    </div>
+    </footer>
+   
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #head{
+    background-color: red;
+    text-decoration: line-through;
+    color: rgb(15, 15, 80);
+} */
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-image: url("/static/app/image/my6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.logo{
+    
+    height: 40px;
+    width: 140px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+#logoh1{
+    
+    font-size: 40px;
+    font-family: serif;
+}
+.navlist{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-top:30px ;
+    margin-left: 40px;
+    font-size: 16px;
+    font-family: serif;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.rightnav{
+    
+    margin-top: 30px;
+    margin-left: 90px;    
+}
+#search{
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+
+}
+.btn{
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+}
+.footers{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+   
+}
+.footerdiv{
+    text-align: center;
+    margin-left: 30px;
+}
+.footera{
+    font-size: 25px;
+    color: aliceblue;
+}
+#homes{
+    background-image: url("/static/app/image/my5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+#homep{
+    text-align: center;
+    padding-top: 60px;
+    font-family: serif;
+    color:  black;
+    font-size: 25px;
+
+
+}
+#homeh1{
+    font-size: 60px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 5px;
+}
+#btn2{
+    height: 40px;
+    color: black;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 400px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#btn3{
+    height: 40px;
+    color: aliceblue;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#abouts{
+    background-image: url("/static/app/image/my9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
+}
+#abouth1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 50px;
+    margin-left: 30px;
+
+}
+#inp{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow:  10px 10px 30px ;
+
+}
+#main1{
+    height: 1600px;
+    width: 100%;
+   
+    
+}
+#first{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 40px;
+    border: none;
+    float: left;
+    
+    
+}
+#first:hover{
+     background-color: skyblue;
+}
+#imgs{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    box-shadow:  10px 10px 20px ;
+    border-radius: 10px;
+}
+#abouth2{
+    font-family: serif;
+    font-size: 20px;
+}
+#btn4{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+#contact{
+    height: 1400px;
+    width: 100%;
+    
+}
+#contact1{
+    height: 800px;
+    width: 70%;
+    background-color: rgba(63, 202, 202,0.3);
+    margin-left: 180px;
+    margin-top: 100px;
+    box-shadow: 10px 20px 20px;
+}
+#co1{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 40px;
+    margin-left: 40px;
+    float: left;
+    margin-bottom: 100px;
+}
+#co1:hover{
+        background-color: cadetblue;
+        color: aliceblue;
+        font-size: 20px;
+    
+}
+#contacth3{
+    font-family: serif;
+    text-decoration: underline;
+    margin-top: 10px;
+    text-align: center;
+}
+#conp{
+    text-align: center;
+    font-family: serif;
+    margin-top: 20px;
+}
+#info{
+    height: 400px;
+    width: 300px;
+    padding-top: 100px;
+    
+    
+}
+#infoh1{
+    font-family: serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+#infop{
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: serif;
+}
+#mona{
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    box-shadow: 10px 10px 50px;
+}
+#mes{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 300px;
+   
+}
+#forms{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#lables{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#inp11
+{
+    height: 28px;
+    width: 400px;
+    margin-top: 8px;
+    font-size: 18px;
+    border-top: none ;
+    border-left: none ;
+    border-right: none ;
+    background-color: transparent;
+    color: black;
+    
+
+}
+#inp12{
+    height: 35px;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: rgb(122, 122, 227);
+}
+#imgsn{
+    margin-top: 400px;
+}
+#conimgs{
+    height: 400px;
+    width: 100%;
+}
+.gal{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+}
+#ayu{
+    background-color: blue;
+   
+}
+#gal{
+    height: 1600px;
+    width: 100%;
+   
+}

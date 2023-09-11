@@ -1,0 +1,53 @@
+{% extends 'app/index.html' %}
+{% load static %}
+{% block one %}
+<div id="contact">
+    <div id="contact1">
+        <div id="co1">
+            <h3 id="contacth3">Our Main Office</h3>
+            <p id="conp">M.P. Nagar Bhopla(Madhaya Predesh)</p> 
+        </div>
+        
+            <div id="co1">
+                <h3 id="contacth3">PHONE NUMBER</h3>
+                <p id="conp">234-9876-5467<br>888-0109-4567(toll Free)</p> 
+            </div>
+            <div id="co1">
+                <h3 id="contacth3">EMAIL</h3>
+                <p id="conp">rathoreranu@gmail<br>.com</p> 
+            </div>
+            <div id="co1">
+                <h3 id="contacth3">WATHSAPP NUMBER</h3>
+                <p id="conp">7607080978</p> 
+            </div>
+         <div id="info">
+            <h1 id="infoh1">Contact Info</h1>
+             <form id="forms">
+                <lable id="lables">Name</lable><br>
+                <input id="inp11" type="text" placeholder="Enter your name"/>
+                <br>
+                <lable id="lables">Surname</lable><br>
+                <input id="inp11" type="text" placeholder="Enter your Surname"/>
+                <br>
+                <lable id="lables">Address</lable><br>
+                <input id="inp11"type="text" placeholder="Enter your Address"/>
+                <br>
+                <lable id="lables">Contact No</lable><br>
+                <input id="inp11"type="tel" placeholder="Enter your Contact No"/>
+                <br>
+                <lable id="lables">Email</lable><br>
+                <input id="inp11" type="Email" placeholder="Enter your Email"/>
+                <br>
+                <lable id="lables">password</lable><br>
+                <input id="inp11" type="password" placeholder="Enter your password"/><br>
+                <input id="inp12" type="submit" value="submit"/>
+                <br>
+             </form>
+        </div>
+        <div id="imgsn">
+            <h1>Location</h1>
+            <img id="conimgs" src="{% static 'app/image/map.jpg' %}">
+        </div>
+    </div>
+</div>
+{% endblock one%}
